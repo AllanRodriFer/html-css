@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Videos com html5</title>
+</head>
+<body>
+      <h1>Inserindo videos hospedados localmente.</h1>
+      <p>Este video está hospedado no meu próprio servidor.</p>
+      <video width="560" poster="imagens/ocean-1867285__480.jpg" controls>
+            <source src="midia/Meu-Video2.m4v" type="video/m4v">
+            <source src="midia/meu-video.mp4" type="video/mp4">
+            <source src="midia/Meu-Video4.webm" type="video/webm">
+            <source src="midia/Meu-Video3.mkv" type="video/mkv">
+            <p>Seu navegador não tem compatibilidade com reprodução de videos</p>
+      </video>
+      <!-- Sempre variar os tipos de codecs, pois existem navegadores que não são compativeis com algum tipo. O mesmo deve ser feito para audio. O html sempre segue a ordem disposta no codigo. Videos hospedados dessa forma gera um grande custo de tráfego se o site for muito acessado -->
+
+      <h1>Inserindo vídeos do Youtube</h1>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/P7Cz2IPe5J8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <h1>Inserindo vídeo do Vimeo </h1>
+      <iframe src="https://player.vimeo.com/video/167394862?h=128286ffaf&loop=1&color=c9ff23&portrait=0" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+      <!-- Inserir videos do Youtube ou Vimeo economiza tráfego de banda. No Youtube não é possível manter o video privado. No Vimeo é possivel, porém custa caro. Manter o vídeo privado no Vimeo é interessante para arquivar aulas, porém o valor da hospedagem é muito alto-->
+
+</body>
+</html>

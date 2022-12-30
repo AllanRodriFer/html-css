@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Grouping tags</title>
+      <style>
+            body {
+                  font-family: Arial, Helvetica, sans-serif;
+                  background-color: dimgray;
+                  margin: 0px;
+            }
+            header {
+                  background-color: white;
+                  padding: 10px;
+                  margin: 10px;
+                  border-radius: 10px;
+                  
+            }
+            nav {
+                  background-color: rgb(102,102,102);
+                  padding: 3px;
+                  box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.644);
+            }
+            nav > a {
+                  text-decoration: none;
+                  color: white;
+                  font-weight: bold;
+                  margin-right: 30px;
+                
+            }
+            nav > a:hover {
+                  text-decoration: underline;
+            }
+            main {
+                  background-color: white;
+                  padding: 10px;
+                  margin: 10px;
+                  border-radius: 10px;
+            }
+            article {
+                  background-color: lightgrey;
+                  padding: 5px;
+                  text-align: justify;
+                  border-radius: 10px;  
+                  box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.644);               
+            }      
+            article > aside{
+                  background-color: rgb(165,165,165);
+                  text-align: right;
+                  border-radius: 4px;
+            }
+            
+            footer {
+                  background-color: black;
+                  color: white;                        text-align: center;
+                  padding: 10px;
+                  margin: 0px;
+            }
+            footer > p {
+                  margin: 0px;
+            }
+            #Nome {
+                  text-align: center;
+            }
+            div#bola {
+                  height: 100px;
+                  width: 100px;
+                  margin: 10px;
+                  background-color: aqua;
+                  border-radius: 50px;
+            }
+                
+      </style>
+</head>
+<body>
+      <header>
+            <h1 id="Nome">Meu site</h1>
+            <nav>
+                  <a href="#">Link</a>
+                  <a href="#">Link</a>
+                  <a href="#">Link</a>
+                  <a href="#">Link</a>
+                  <a href="#">Link</a>
+            </nav>
+      </header>
+
+      <main>
+            <section id="assuntos">
+                  <p>Esportes Política Tecnologia</p>
+            </section>
+            <section id="Noticias">
+                  <article>
+                        <h2>Notícias sobre o Brasil</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi sequi nam ipsam, placeat vero natus ad, ducimus molestiae provident architecto quos accusamus recusandae ullam repellat, itaque suscipit a magnam ex? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente explicabo, reprehenderit in unde suscipit praesentium temporibus dicta assumenda debitis porro iste fugit non numquam ipsum accusantium ex aliquam earum. Voluptates!</p>
+                              <aside>
+                                    <p>Artigo escrito por José da Silva</p>
+                              </aside>
+
+                        <h2>Tecnologia</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ratione incidunt, illo est eveniet quis expedita consectetur voluptatum, recusandae similique, aliquam rerum maiores cum quaerat harum assumenda dolore porro mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque neque dolores magnam maxime exercitationem corrupti nulla saepe consectetur magni dolorum quidem illum earum iste esse non est iure, omnis dolor! Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, quasi? Unde ab at delectus debitis sit molestiae consequuntur, soluta dolores repellendus. Nobis tempora quisquam est laudantium accusantium laborum eaque explicabo.</p>
+                              <aside>
+                                    <p>Artigo escrito por Allan Rodrigues Ferreira</p>
+                              </aside>
+
+                  </article>
+            </section>
+      </main>     
+  
+      <footer>
+            <p>Desenvolvido por Allan Rodrigues Ferreira</p>
+      </footer>
+      <div id="bola"></div>
+     
+      
+</body>
+</html>
