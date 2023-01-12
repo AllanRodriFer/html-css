@@ -16,7 +16,8 @@
 
 html, body {
       min-height: 100vh;
-      background-color: darkgrey;       
+      background-color: darkgrey;  
+      font-family: var(--fonte1);     
 }
 
 header {
@@ -28,7 +29,7 @@ header {
 header > h1 {
       padding-top: 50px;
       font-family: var(--fonte2);
-      font-size: 3em;
+      font-size: 10vw;
       font-weight: bold;
      font-variant: small-caps;
 }
@@ -38,7 +39,6 @@ header > p {
       text-decoration: none;
       color: white;
       text-align: center;
-      margin: 5px;
       font-family: var(--fonte1);
 }
 
@@ -58,6 +58,8 @@ section {
       padding-bottom: 10vh;
       line-height: 2em;
       padding-left: 30px;
+      font-family: var(--fonte3);
+      font-size: 3vw;
 }
 
 section.normal {
@@ -68,11 +70,25 @@ section.normal {
 section.imagem {
       background-color: rgb(47, 45, 45);
       color: white;
+      box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.529);
+      background-size: cover;
+      background-attachment: fixed;
 }
 
 section.imagem > p {
-      width: 300px;
-      background-color: rgba(0, 0, 0, 0.421);
+     display: inline-block;
+     padding: 5px;
+     background-color: rgba(0, 0, 0, 0.421);
+     text-shadow: 1px 1px 0px black;
+}
+
+section#img01 {
+      background-image: url(/Desafios/d012/imagens/background001.jpg);
+      background-position: right center;
+}
+
+section#img02 {
+      background-image: url(/Desafios/d012/imagens/background002.jpg);
 }
 
 footer{
