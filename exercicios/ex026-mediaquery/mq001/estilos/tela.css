@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/* CSS para Telas */
+
+* {
+      margin: 0px;
+      padding: 0px;
+}
+html{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1em;
+}
+header{
+      padding: 5px;
+      background-color: rgba(255, 0, 0, 0.321);
+}
+header h1{
+      text-align: center;
+      padding: 20px;
+}
+menu ul{
+      list-style-type: none;
+      background-color: aquamarine;
+      text-align: center;
+      padding: 5px;
+      border-radius: 5px;
+}
+menu li {
+      display: inline-block;
+      padding: 5px;
+      color: white;
+      background-color: darkgreen;
+      border-radius: 5px;
+}
+li a{
+      text-decoration: none;
+      color: white;
+}
+li a:hover{
+      color: chocolate;
+}
+article h2{
+      text-align: center;
+      padding: 20px;
+}
+article p {
+      text-align: justify;
+      padding: 0px 20px;
+      text-indent: 50px;
+      max-width: 600px;
+      min-width: 300px;
+      margin: auto;
+      display: block;
+}
